@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  width: 100%;
+  height: 100vh;
   text-align: center;
+  background-color: #B09B71;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: 80px;  
+  border-radius: 8px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slick-slide > div {
+  margin: 0 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slick-list {
+  margin: 0 -10px;
+}
+.card {
+  width: 300px;
+  height: 400px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #D8CCA3;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: 'Antic Slab', serif;
+  letter-spacing: 1.2px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  margin: 10px 0;
 }
